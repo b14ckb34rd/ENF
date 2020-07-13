@@ -1,46 +1,84 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
-    <meta charset="utf-8">
-    <link rel="icon" href="../css/favicon.ico">
-    <link rel="stylesheet" href="../css/styles.css">
-    <title>Eliot Ness Festival</title>
-  </head>
+    <head>
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+        <!-- Favcon -->
+        <link rel="icon" href="../css/favicon.ico">
+        <!-- Style Sheets -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/styles.css">
+        <!-- BS-SCRIPTS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+         <!-- font awesome -->
+      <script src="https://kit.fontawesome.com/82d63b52f5.js" crossorigin="anonymous"></script>
+        <meta charset="utf-8">
+        <title>Eliot Ness Fest </title>
+      </head>
   <body>
       <!--------NAVigation--------->
-    <nav id="nav">
+      <nav class="navbar navbar-expand-lg navbar-dark  ">
+      
+        <a class="navbar-brand " href="#">
+          <img src="../pcz/shilouette.PNG" width="50" height="50" alt="" loading="lazy">
+        </a>
         
-        <div class="icons">
-            <div class="nav-icon ">
-                <a  href="../index.html">Home</a>
-            </div>
-            <div class="nav-icon ">
-                <a  href="about.html">About</a>
-            </div>
-            <div class="nav-icon icnsel">
-                <a class="aSel" href="events.html">Events</a>
-            </div>
-            <div class="nav-icon ">
-                <a href="commerce.html">Commerce</a>
-            </div>
-            <div class="nav-icon ">
-                <a href="gallery.html">Gallery</a>
-            </div>
-            <div class="nav-icon ">
-                <a href="more.html">More</a>
-            </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" 
+            data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navdrop1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Events
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navdrop1">
+                <a class="dropdown-item" href="schedule.html">Schedule</a>
+                <a class="dropdown-item" href="eventDetails.html">Event Details</a>
+                <a class="dropdown-item" href="streetTheatre.html">Street Theatre</a>
+                <a class="dropdown-item" href="carShows.html">Car Shows</a>
+                <a class="dropdown-item" href="parking.html">Parking</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navdrop1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Commerce
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navdrop2">
+                <a class="dropdown-item" href="eventVenders.html">Event Venders</a>
+                <a class="dropdown-item" href="localAttractions.html">Local Attractions</a>
+                <a class="dropdown-item" href="books.html">Books</a>
+              </div>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navdrop1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  More
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navdrop3">
+                  <a class="dropdown-item" href="forms.html">Forms</a>
+                  <a class="dropdown-item" href="contactUs.html">Contact us</a>
+                  <a class="dropdown-item" href="https://eliotnessmuseum.org">EliotNess Museum</a>
+                </div>
+                <li class="nav-item">
+                  <a class="nav-link" href="sponsors.html">Sponsors</a>
+                </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            
+          </ul>
         </div>
-    </nav>
+      </nav>
 
-    <footer class="footer">
-        <h3 class="footie sp1">&copy Eliot Ness Fest - 2020</h3>
-        <h3 class="footie sp2">Contact Us!</h3>
-        <img class="ft-icn" src="../pcz/em-icon.PNG" alt="">
-        <img class="ft-icn" src="../pcz/FB-icon.PNG" >
-        <img class="ft-icn" src="../pcz/ins-icon.PNG">
-        
-    </footer>
-
+      <h1>Events</h1>
   </body>
 </html>
